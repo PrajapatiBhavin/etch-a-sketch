@@ -1,0 +1,28 @@
+body {
+    background-color: lightskyblue;
+    opacity: 0.6;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+#whiteBoard {
+    
+    width: 512px;
+    height: 512px;
+    background-color: royalblue;
+    display: flex;
+    flex-wrap: wrap ;
+}
+
+.sqGrid {
+    /*padding: 1px;
+    margin: 1px; */
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    border-color: red;
+    background-color: white;
+    
+}
